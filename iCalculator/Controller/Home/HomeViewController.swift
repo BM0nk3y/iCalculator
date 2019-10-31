@@ -121,7 +121,6 @@ final class HomeViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
         //UI
         number0.round()
         number1.round()
