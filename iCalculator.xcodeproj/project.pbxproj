@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		936CAEEA23A3E5C00084ADD7 /* mainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 936CAEE923A3E5C00084ADD7 /* mainScreen.png */; };
+		936CAEEC23A3E6170084ADD7 /* splashScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 936CAEEB23A3E6170084ADD7 /* splashScreen.png */; };
 		93A0FDD5236A15CF0078E989 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A0FDD4236A15CF0078E989 /* UIButtonExtension.swift */; };
 		93D865232369DF4B00BBD5A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D865222369DF4B00BBD5A6 /* AppDelegate.swift */; };
 		93D8652C2369DF4C00BBD5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D8652B2369DF4C00BBD5A6 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		936CAEE923A3E5C00084ADD7 /* mainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainScreen.png; sourceTree = "<group>"; };
+		936CAEEB23A3E6170084ADD7 /* splashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashScreen.png; sourceTree = "<group>"; };
 		93A0FDD4236A15CF0078E989 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		93D8651F2369DF4B00BBD5A6 /* iCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D865222369DF4B00BBD5A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		936CAEE623A3E5650084ADD7 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				936CAEEB23A3E6170084ADD7 /* splashScreen.png */,
+				936CAEE923A3E5C00084ADD7 /* mainScreen.png */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		93D865162369DF4B00BBD5A6 = {
 			isa = PBXGroup;
 			children = (
+				936CAEE623A3E5650084ADD7 /* Screens */,
 				93D865212369DF4B00BBD5A6 /* iCalculator */,
 				93D865202369DF4B00BBD5A6 /* Products */,
 			);
@@ -183,6 +197,8 @@
 			files = (
 				93D8652F2369DF4C00BBD5A6 /* LaunchScreen.storyboard in Resources */,
 				93D8652C2369DF4C00BBD5A6 /* Assets.xcassets in Resources */,
+				936CAEEA23A3E5C00084ADD7 /* mainScreen.png in Resources */,
+				936CAEEC23A3E6170084ADD7 /* splashScreen.png in Resources */,
 				93F1F5992369E85100C42D3A /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +358,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abellazaro.iCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devmonkey.iCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,7 +377,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.abellazaro.iCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devmonkey.iCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
