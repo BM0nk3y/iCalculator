@@ -19,8 +19,8 @@ App replica de calculadora que hay en iphone
 * iOS 10.x o superior (Compatible con iPhone y iPad)
 
 ## Encuéntrame en:
-[![Facebook](https://img.shields.io/badge/Facebook-devm0nk3y-blue.svg?style=for-the-badge)](https://facebook.com/devm0nk3y)
-[![Twitter](https://img.shields.io/badge/twitter-@devm0nk3y-blue.svg?style=for-the-badge)](https://twitter.com/devm0nk3y)
+<!--[![Facebook](https://img.shields.io/badge/Facebook-devm0nk3y-blue.svg?style=for-the-badge)](https://facebook.com/devm0nk3y)
+[![Twitter](https://img.shields.io/badge/twitter-@devm0nk3y-blue.svg?style=for-the-badge)](https://twitter.com/devm0nk3y)-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-AbelLázaro-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abellazaro/)
 
 ### Autor
